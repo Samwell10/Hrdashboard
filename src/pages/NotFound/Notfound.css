@@ -1,0 +1,19 @@
+.notfound{
+    width: 100%;
+    height: 80vh;
+    /* min-height: calc(100vh - 80px); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.anim{
+    width: 300px;
+}
+.notfound p{
+    color: #898989;
+    font-family: "Urbanist";
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+}

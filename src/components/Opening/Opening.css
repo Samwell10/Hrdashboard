@@ -1,0 +1,117 @@
+.opening{
+    background-color: #1E1E1E;
+    width: 100%;
+    position: relative;
+    padding: 0.97rem;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    border-top: none;
+    border-bottom: none;
+    /* backdrop-filter: blur(10px); */
+}
+.opening-color{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 151.398px;
+    height: 151.398px;
+    border-radius: 50%;
+    filter: blur(30px);
+}
+.opening-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.opening-top-left{
+    display: flex;
+    align-items: center;
+}
+.opening-top-left img{
+    width: 46.584px;
+}
+.opening-title{
+    color: #FFF;
+    font-family: "Urbanist";
+    font-size: 1.09181rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.opening-time{
+    color: #898989;
+    font-family: "Urbanist";
+    font-size: 0.72788rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.opening-top-right{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46.584px;
+    height: 46.584px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(48.52491760253906px);
+}
+.opening-top-right svg{
+    font-size: 1.2rem;
+}
+.opening-middle{
+    margin-top: 15.35px;
+    display: flex;
+    align-items: center;
+    gap: 7.76px;
+}
+.opening-bubble{
+    display: flex;
+    align-items: center;
+    gap: 3.88px;
+    padding: 0.36rem 0.73rem;
+    border-radius: 23.292px;
+    background: #282828;
+    color: #898989;
+}
+.opening-bubble p{
+    color: #898989;
+    font-family: "Urbanist";
+    font-size:  0.7885rem;
+    font-style: normal;
+    font-weight: 500;
+}
+.opening-bubble svg{
+    font-size: 0.9705rem;
+}
+
+.opening-bottom{
+    margin-top: 15.35px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.opening-bottom-left p{
+    color: #898989;
+    font-family: "Urbanist";
+    font-size: 0.72788rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.opening-bottom-left p span{
+    color: #FFF;
+    font-family: "Urbanist";
+    font-size: 2.42625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.opening-bottom-right p{
+    color: #00B85E;
+    font-family:"Urbanist";
+    font-size: 0.72788rem;
+    font-style: normal;
+    font-weight: 400;
+}

@@ -1,0 +1,15 @@
+.layout{
+    width: 100%;
+    display: flex;
+}
+.layout-right{
+    margin-left: 300px;
+    width: calc(100% - 300px);
+}
+.layout-main{
+    margin-top: 85px;
+    width: 100%;
+    min-height: calc(100vh - 85px);
+    max-height: 100%;
+    padding: 2.09rem 1.94rem;
+}

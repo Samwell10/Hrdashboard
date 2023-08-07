@@ -1,0 +1,14 @@
+.job-body{
+    margin-top: 40px;
+    height: 550px;
+    overflow-y: scroll;
+}
+.job-body-inner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 23px;
+}
+.job-body::-webkit-scrollbar {
+    width: 0px;
+    display: none;
+}

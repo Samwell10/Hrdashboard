@@ -1,0 +1,81 @@
+.candidatetable{
+    width: 100%;
+    background-color: #1E1E1E;
+    border-radius: 15.528px;
+}
+.table-top{
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    padding: 0.97rem;
+    border-bottom: 0.06063rem solid #272727;
+}
+.table-top p{
+    cursor: pointer;
+    padding: 0px 10px;
+    color: #898989;
+    text-align: center;
+    font-family: "Urbanist";
+    font-size: 0.9705rem;
+    font-style: normal;
+    font-weight: 500;
+    /* border: 3px solid;
+    border-width: 4px;
+    border-image-slice: 1;
+    border-image-source:  linear-gradient(124deg, #6E38E0 0%, #FF5F36 100%); */
+}
+.active{
+    font-weight: 700;
+    background:  linear-gradient(124deg, #6E38E0 0%, #FF5F36 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.tables{
+    width: 100%;
+    padding: 0.97rem;
+}
+.tables table{
+    width: 100%;
+}
+.tables table thead{
+    border-radius: 7.764px;
+    background: #262626;
+    text-align: left;
+}
+.tables table thead tr{
+    border-radius: 7.764px;
+}
+.tables table thead tr th{
+    color: #898989;
+    font-family: "Urbanist";
+    font-size: 0.84919rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.04244rem;
+    padding: 0.83rem 1.21rem;
+}
+.tables table tbody tr td{
+    color: #FFF;
+    font-family: "Urbanist";
+    font-size: 0.9705rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.0485rem;
+    padding: 1.46rem 1.21rem;
+    border-bottom: 0.06063rem solid #272727;
+}
+.table-content{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.table-content img{
+    width: 31.056px;
+    height: 31.056px;
+    border-radius: 50%;
+}
+.star{
+    color: #FFD928;
+}

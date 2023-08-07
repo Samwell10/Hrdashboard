@@ -1,0 +1,66 @@
+.sidebar{
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    background-color: #151515;
+    border-right: 0.06063rem solid #272727;
+}
+.sidebar-logo{
+    padding: 1.7rem 2.43rem;
+    border-bottom: 0.06063rem solid #272727;
+
+}
+.sidebar-links{
+    padding-right: 1.77rem;
+    padding-top: 31px;
+}
+.sidebar-links nav{
+    list-style: none;
+
+}
+.link{
+    text-decoration: none;
+    color: #898989;
+    display: flex;
+    align-items: center;
+    gap: 9.7px;
+    padding-left: 2.43rem;
+    padding-top: 0.97rem;
+    padding-bottom: 0.97rem;
+    padding-right: 0.97rem;
+    transition: ease-in 0.5s;
+    border-radius: 0px 30px 30px 0px;
+}
+.active2{
+    color: white;
+    background: linear-gradient(124deg, #6E38E0 0%, #FF5F36 100%);
+    border-radius: 0px 30px 30px 0px;
+    transition: ease-out 0.5s;
+}
+.link:hover{
+    color: white;
+    background: linear-gradient(124deg, #6E38E0 0%, #FF5F36 100%);
+    border-radius: 0px 30px 30px 0px;
+    transition: ease-out 0.5s;
+}
+.sidebar-links nav li a p{
+    font-family: "Urbanist";
+    font-size: 0.9705rem;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.sidebar-links nav li a svg{
+    font-size: 1.2rem;
+}
+.sidebar-category{
+    padding: 2.3rem 2.43rem;
+    padding-bottom: 1.46rem;
+    color: #898989;
+    font-family: "Urbanist";
+    font-size: 0.84919rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.04244rem;
+}
